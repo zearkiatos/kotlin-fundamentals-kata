@@ -9,3 +9,6 @@ build:
 
 test:
 	./gradlew test
+
+docker-ci:
+	docker build -t kotlin-fundamentals-kata:latest -f ci.Dockerfile .
