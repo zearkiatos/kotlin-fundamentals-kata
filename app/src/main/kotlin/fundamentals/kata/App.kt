@@ -3,6 +3,8 @@
  */
 package fundamentals.kata
 
+import fundamentals.kata.game.Game
+
 class App {
     val greeting: String
         get() {
@@ -12,4 +14,7 @@ class App {
 
 fun main() {
     println(App().greeting)
+    println()
+    // Run the game demo
+    Game.main(emptyArray())
 }
