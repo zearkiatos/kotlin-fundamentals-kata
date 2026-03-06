@@ -6,3 +6,4 @@ build
 
 .kotlin
 bin
+.DS_Store
