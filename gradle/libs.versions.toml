@@ -3,9 +3,11 @@
 
 [versions]
 guava = "33.4.5-jre"
+kotlin = "2.1.20"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
+kotlin-reflect = { module = "org.jetbrains.kotlin:kotlin-reflect", version.ref = "kotlin" }
 
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version = "2.1.20" }
